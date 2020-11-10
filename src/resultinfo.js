@@ -9,6 +9,8 @@ class ReactInfo extends Component {
         <div>Round Winner: {`${this.props.roundWinner}`}</div>
         <div>User Point: {`${this.props.userPoint}`}</div>
         <div>PC Point: {`${this.props.pcPoint}`}</div>
+        <div>Round: {`${this.props.roundNumber}`}/{`${this.props.roundLimit}`}</div>
+        <div>Match winner: {`${this.props.matchWinner}`}</div>
       </>
     );
   }
